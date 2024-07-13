@@ -1,0 +1,58 @@
+
+
+@import "~/.config/rofi/config.rasi" 
+
+/* ---- Configuration ---- */ 
+
+
+window {
+  width: 50%;
+  height: 93%;
+}
+
+/* ---- Imagebox ---- */
+imagebox {
+  orientation: horizontal;
+  children:
+    [ "entry", "listbox"];
+}
+
+inputbar {
+    enabled:                     true;
+    padding:                     10px 10px 450px 10px;
+    margin:                      10px;
+    background-color:            transparent;
+    border-radius:               10px;
+    orientation:                 horizontal;
+    background-image:            url("/home/anthony/Pictures/Backgrounds/anime/horizontal/silvervale.jpg", height);
+}
+
+
+entry {
+  expand: false;
+  placeholder: "Choose Wallpaper";
+}
+
+/* ---- Listview ---- */
+listview {
+  columns: 4;
+  lines: 3;
+}
+
+/* ---- Element ---- */
+element {
+  orientation: vertical;
+  padding: 0px;
+  spacing: 0px;
+  border-radius: 15px;
+}
+
+element-icon {
+  size: 20%;
+}
+
+element-text {
+  font: "Fira Code SemiBold 12";
+  vertical-align: 0.5;
+  horizontal-align: 0.5;
+}

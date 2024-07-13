@@ -1,0 +1,25 @@
+
+@import "~/.config/rofi/config.rasi" 
+
+/* ---- Entry ---- */
+entry {
+  width: 37%;
+  placeholder: "Search Clipboard (alt + del to clear) ";
+}
+
+inputbar {
+    enabled:                     true;
+    padding:                     10px 10px 400px 10px;
+    margin:                      5px;
+    background-color:            transparent;
+    border-radius:               50px;
+    orientation:                 horizontal;
+    background-image:            url("/home/anthony/Pictures/Backgrounds/anime/horizontal/77524362_p0.jpg", width);
+}
+
+/* ---- Listview ---- */
+listview {
+  columns: 1;
+  lines: 8;
+}
+

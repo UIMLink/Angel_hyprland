@@ -1,0 +1,15 @@
+
+
+@import "~/.config/rofi/config-waybar-style.rasi" 
+
+/* ---- Entry ---- */ 
+
+inputbar {
+    enabled:                     true;
+    padding:                     10px 10px 300px 10px;
+    margin:                      5px;
+    background-color:            transparent;
+    border-radius:               35px;
+    orientation:                 horizontal;
+    background-image:            url("/home/anthony/Pictures/Backgrounds/anime/horizontal/sinder6.jpg", height);
+}

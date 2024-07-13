@@ -1,0 +1,25 @@
+/* Rofi Beats Config (compact) */
+
+@import "~/.config/rofi/config-compact.rasi" 
+
+/* ---- Entry ---- */ 
+entry {
+  placeholder: "Choose Station";
+}
+
+inputbar {
+    enabled:                     true;
+    padding:                     10px 10px 400px 10px;
+    margin:                      5px;
+    background-color:            transparent;
+    border-radius:               50px;
+    orientation:                 horizontal;
+    background-image:            url("/home/anthony/Pictures/Backgrounds/anime/horizontal/lofi-girl-07.jpg", width);
+}
+
+
+/* ---- Listview ---- */
+listview {
+  lines: 6;
+}
+

@@ -1,0 +1,62 @@
+
+
+@import "~/.config/rofi/config.rasi" 
+
+/* ---- Configuration ---- */ 
+configuration {
+  modi: "drun";
+}
+
+/* ---- Window ---- */
+window {
+    enabled:                    true;
+    fullscreen:                 false;
+    transparency:               "real";
+    cursor:                     "default";
+    spacing:                    0px;
+    border:                     1px;
+    border-radius:              20px;
+    location:                   center;
+    anchor:                     center;
+    border: @background;
+    width:                      50%;
+    background-color:           @background;
+    opacity: 0.01;
+}
+
+/* ---- Inputbar ---- */
+inputbar {
+    enabled:                     true;
+    padding:                     10px 10px 400px 10px;
+    margin:                      5px;
+    background-color:            transparent;
+    border-radius:               20px;
+    orientation:                 horizontal;
+    background-image:            url("/home/anthony/Pictures/Backgrounds/anime/horizontal/72038523_p0.jpg", width);
+}
+
+/* ---- Imagebox ---- */
+imagebox {
+  orientation: vertical;
+  children: [ "entry", "listview"];
+}
+
+/* ---- Entry input ---- */
+entry {
+  width: 46%;
+  placeholder: "Edit Hyprland Configs";
+}
+
+/* ---- Listview ---- */
+listview {
+  columns: 2;
+  lines: 4;
+  spacing: 4px;
+  scrollbar: false;
+  border-radius: 12px;
+}
+
+/* ---- Element ---- */
+element {
+  border-radius: 10px;
+}
