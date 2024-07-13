@@ -1,0 +1,6 @@
+# this requires xremap 
+modmap:                                                                                                                                                                                                       
+  - name: Default
+    remap: # Required
+      ALT_L: WIN_L # Required
+      WIN_L: ALT_R
